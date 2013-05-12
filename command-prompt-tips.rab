@@ -38,7 +38,7 @@ Windowsの黒い画面を\n便利に使う方法
     * 略してシェル (shell) と呼ばれる
       * GUIシェルはあまりシェルとは呼ばない
 
-= いろいろなシェル
+= いろいろなCLI
 
 : Unix, Linux
    * sh, ksh, bash, zsh ...
@@ -58,9 +58,9 @@ Windowsの黒い画面を\n便利に使う方法
 = コマンドプロンプトとは
 
   * cmd.exeの通称
-  * 現代のWindowsの標準シェル
+  * 現代のWindowsの標準CLI
 
-= シェルでできること
+= CLIでできること
 
 : Unix, Linux
    * 全部
