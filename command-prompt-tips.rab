@@ -1,0 +1,70 @@
+= コマンドプロンプト\nTips
+
+# : subtitle
+#    サブタイトル
+: author
+   Masafumi Yokoyama
+# : institution
+#    所属
+: content-source
+   社内勉強会2013
+: date
+   2013/05/17
+: allotted-time
+   30m
+: theme
+   nyankosakana
+
+= マイブーム
+
+: Ruby-GNOME2
+   * GUIライブラリ
+   * マルチプラットフォーム
+: つくったもの
+   * ファイルビューアー
+   * オーディオプレーヤー
+   * 将棋盤（構想中）
+
+= 話すこと
+
+(('tag:center'))
+(('tag:large'))
+Windowsの黒い画面を\n便利に使う方法
+
+= 黒い画面とは
+
+  * OSのCLIシェル
+    * コマンドラインインターフェース
+    * 略してシェル (shell) と呼ばれる
+      * GUIシェルはあまりシェルとは呼ばない
+
+= いろいろなシェル
+
+: Unix, Linux
+   * sh, ksh, bash, zsh ...
+
+: Windows
+   * COMMAND.COM (MS-DOS, 9x系)
+   * cmd.exe (NT系)
+   * Windows PowerShell
+
+= Windows NT系とは
+
+  * いわゆる2000以降のWindows
+    * NT, 2000, XP, Vista, 7, 8
+    * Windows Server 2000以降
+    * 9x系とは設計思想が違う（らしい）
+
+= コマンドプロンプトとは
+
+  * cmd.exeの通称
+  * 現代のWindowsの標準シェル
+
+= シェルでできること
+
+: Unix, Linux
+   * 全部
+
+: Windows
+   * 一部
+
