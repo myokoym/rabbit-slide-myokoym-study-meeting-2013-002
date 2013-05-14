@@ -131,3 +131,42 @@ Windowsの黒い画面を\n便利に使う方法
 
     # XP
     C:\WINDOWS\system32\cmd.exe
+
+= Unix風\nコマンド
+
+== プロパティ
+
+: as_large_as_possible
+   false
+
+= cat
+
+    > type FILE
+
+= find
+
+    > dir /b /s PATTERN
+
+= find
+
+    > tree [/c] [/f]
+
+= grep
+
+    > findstr [/n] [/s] PATTERN FILE...
+
+= grep
+
+    > type FILE... | findstr [/n] PATTERN
+
+= wc -l
+
+    > find /c /v "" FILE...
+
+= wc -l
+
+    > type FILE... | find /c /v ""
+
+= diff
+
+    > fc [/n] FILE1 FILE2
