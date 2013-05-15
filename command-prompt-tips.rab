@@ -178,34 +178,128 @@ OSの((*CLI*))
 : as_large_as_possible
    false
 
-= cat
+= ヘルプ表示
 
-    > type FILE
+  * Unix
 
-= find
+      $ man コマンド名
 
-    > dir /b /s PATTERN
+  * Windows
 
-= find
+      > コマンド名 /?
 
-    > tree [/c] [/f]
+= ネットワーク接続確認
+
+  * Unix
+
+      $ ping IPアドレス/ホスト名
+
+  * Windows
+
+      > ping IPアドレス/ホスト名
+
+= IPアドレス確認
+
+  * Unix
+
+      $ ifconfig
+
+  * Windows
+
+      > ipconfig
+
+= ファイル内容表示
+
+  * Unix
+
+      $ cat FILE...
+
+  * Windows
+
+      > type FILE...
+
+= ファイル検索
+
+  * Unix
+
+      $ find DIR... -name PATTERN
+
+  * Windows
+
+      > dir /b /s PATTERN DIR...
+
+= ディレクトリツリー表示
+
+  * Windows
+
+      > tree [/c] [/f]
 
 = grep
 
-    > findstr [/n] [/s] PATTERN FILE...
+  * Unix
 
-= grep
+      $ grep PATTERN FILE...
 
-    > type FILE... | findstr [/n] PATTERN
+  * Windows
 
-= wc -l
+      > findstr [C:]PATTERN FILE...
 
-    > find /c /v "" FILE...
+= grep\n(('note:サブディレクトリを含む'))
 
-= wc -l
+  * Unix
 
-    > type FILE... | find /c /v ""
+      $ find DIR... | xargs grep PATTERN
 
-= diff
+  * Windows
 
-    > fc [/n] FILE1 FILE2
+      > findstr /s [C:]PATTERN DIR...
+
+= 行数を数える
+
+  * Unix
+
+      $ wc -l FILE...
+
+  * Windows
+
+      > find /c /v "" FILE...
+
+= 行数を数える\n(('note:特定の文字を含む行'))
+
+  * Unix
+
+      $ grep -c "hoge" FILE...
+
+  * Windows
+
+      > find /c "hoge" FILE...
+
+= 行数を数える\n(('note:特定の文字を含む行'))
+
+  * Unix
+
+      $ cat FILE... | grep -c "hoge"
+
+  * Windows
+
+      > type FILE... | find /c "hoge"
+
+= 差分比較
+
+  * Unix
+
+      $ diff [-u|-U0] FILE1 FILE2
+
+  * Windows
+
+      > fc [/n] FILE1 FILE2
+
+= 差分比較\n(('note:バイナリ'))
+
+  * Unix
+
+      $ cmp FILE1 FILE2
+
+  * Windows
+
+      > fc /b FILE1 FILE2
