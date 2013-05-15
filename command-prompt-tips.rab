@@ -234,7 +234,7 @@ OSの((*CLI*))
 
       > tree [/c] [/f]
 
-= grep
+= ファイル内検索\n(('note:grep'))
 
   * Unix
 
@@ -244,7 +244,7 @@ OSの((*CLI*))
 
       > findstr [C:]PATTERN FILE...
 
-= grep\n(('note:サブディレクトリを含む'))
+= ファイル内検索\n(('note:サブディレクトリを含む'))
 
   * Unix
 
@@ -303,3 +303,11 @@ OSの((*CLI*))
   * Windows
 
       > fc /b FILE1 FILE2
+
+= まとめ
+
+  * WindowsのCLIも意外といける
+  * クローズドな環境で威力を発揮
+  * GUIより((*自動化*))しやすい
+  * CLIで怠けよう
+  * 続きはWindowsで
