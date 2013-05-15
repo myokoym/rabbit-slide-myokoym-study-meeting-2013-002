@@ -4,6 +4,7 @@ base_name: command-prompt-tips
 tags:
 - rabbit
 - windows
+- cli
 - shell
 - commandprompt
 presentation_date: 2013/05/17
