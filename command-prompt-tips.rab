@@ -108,7 +108,6 @@ OSのCLIシェル
 = 起動方法
 
   * 普通に起動
-  * エクスプローラーの場所を開く
 
 = 普通に起動
 
@@ -120,6 +119,11 @@ OSのCLIシェル
 
   (1) Windows + r
   (2) cmd と入力してEnter
+
+= 起動方法
+
+  * 普通に起動
+  * ((*エクスプローラーの場所を開く*))
 
 = エクスプローラーから\n（Vista/7）
 
@@ -141,14 +145,14 @@ OSのCLIシェル
 
 = ComSpec
 
-* 環境変数
-* 標準CLIのフルパス
+  * 環境変数
+  * 標準CLIのフルパス
 
-    # 98
-    C:\WINDOWS\COMMAND.COM
+      # 98
+      C:\WINDOWS\COMMAND.COM
 
-    # XP
-    C:\WINDOWS\system32\cmd.exe
+      # XP
+      C:\WINDOWS\system32\cmd.exe
 
 = Unix風\nコマンド
 
