@@ -25,12 +25,32 @@
    * オーディオプレーヤー
    * 将棋盤（構想中）
 
-= 話すこと
+= テーマ
 
 (('tag:center'))
 (('tag:large'))
-Windowsの黒い画面を\n
-便利に使う方法
+Windowsの((*黒い画面*))を\n
+((*便利*))に使う方法
+
+= agenda
+
+  * OSとの関係
+  * 起動方法
+  * Unix風コマンド
+
+= OSとの関係
+
+== プロパティ
+
+: as_large_as_possible
+   false
+
+= テーマ
+
+(('tag:center'))
+(('tag:large'))
+Windowsの((*黒い画面*))を\n
+((*便利*))に使う方法
 
 = 黒い画面とは
 
