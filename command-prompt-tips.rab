@@ -29,7 +29,8 @@
 
 (('tag:center'))
 (('tag:large'))
-Windowsの黒い画面を\n便利に使う方法
+Windowsの黒い画面を\n
+便利に使う方法
 
 = 黒い画面とは
 
@@ -40,9 +41,15 @@ OSのCLIシェル
 = CLI
 
   * コマンドラインインターフェース
-  * コマンドラインインタプリタ
+  * コマンドラインインタープリター
   * CUI
   * コンソール
+
+= CLI
+
+  # blockquote
+  キーボードなどから入力した文字によって、
+  OSなどのソフトウェアを操作できる仕組み
 
 = シェル
 
@@ -51,7 +58,7 @@ OSのCLIシェル
 
 = いろいろなCLI
 
-: Unix, Linux
+: Unix, Linux (('note:, Mac OS X'))
    * sh, ksh, bash, zsh ...
 
 : Windows
@@ -88,7 +95,8 @@ OSのCLIシェル
 = CLIでできること
 
   # blockquote
-  Windows PowerShellに\nご期待ください。
+  Windows PowerShellに\n
+  ご期待ください。
 
 = 起動方法
 
