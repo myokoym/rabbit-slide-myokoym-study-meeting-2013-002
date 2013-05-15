@@ -284,7 +284,7 @@ OSの((*CLI*))
 
       > type FILE... | find /c "hoge"
 
-= 差分比較
+= 差分比較\n(('note:テキスト'))
 
   * Unix
 
