@@ -42,13 +42,13 @@ Windowsの黒い画面を\n
 Windowsの((*黒い画面*))を\n
 便利に使う方法
 
-= 黒い画面とは
+= 黒い画面
 
 (('tag:center'))
 (('tag:x-large'))
 OSのCLI
 
-= 黒い画面とは
+= 黒い画面
 
 (('tag:center'))
 (('tag:x-large'))
@@ -83,14 +83,14 @@ OSの((*CLI*))
    * cmd.exe (NT系)
    * Windows PowerShell
 
-= Windows NT系とは
+= Windows NT系
 
   * いわゆる2000以降のWindows
     * NT, 2000, XP, Vista, 7, 8
     * Windows Server 2000以降
     * 9x系とは設計思想が違う（らしい）
 
-= コマンドプロンプトとは
+= コマンドプロンプト
 
   * cmd.exeの通称
   * 現代のWindowsの標準CLI
