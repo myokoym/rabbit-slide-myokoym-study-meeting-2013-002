@@ -242,7 +242,7 @@ OSの((*CLI*))
 
   * Windows
 
-      > findstr [/C:]PATTERN FILE...
+      > findstr [/c:]PATTERN FILE...
 
 = ファイル内検索\n(('note:サブディレクトリを含む'))
 
@@ -252,7 +252,7 @@ OSの((*CLI*))
 
   * Windows
 
-      > findstr /s [/C:]PATTERN [DIR/]WILD_CARD
+      > findstr /s [/c:]PATTERN [DIR/]WILD_CARD
 
 = 行数を数える
 
