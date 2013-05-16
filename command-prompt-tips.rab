@@ -183,127 +183,127 @@ OSの((*CLI*))
 
 = ヘルプ表示
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ man コマンド名
 
-  * Windows
+  * (('tag:small'))Windows
 
       > コマンド名 /?
 
 = ネットワーク接続確認
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ ping IPアドレス/ホスト名
 
-  * Windows
+  * (('tag:small'))Windows
 
       > ping IPアドレス/ホスト名
 
 = IPアドレス確認
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ ifconfig
 
-  * Windows
+  * (('tag:small'))Windows
 
       > ipconfig
 
 = ファイル内容表示
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ cat FILE...
 
-  * Windows
+  * (('tag:small'))Windows
 
       > type FILE...
 
 = ファイル検索
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ find DIR... -name WILD_CARD
 
-  * Windows
+  * (('tag:small'))Windows
 
       > dir /b /s WILD_CARD
 
 = ディレクトリツリー表示
 
-  * Windows
+  * (('tag:small'))Windows
 
       > tree [/c] [/f]
 
 = ファイル内検索\n(('note:grep'))
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ grep [-n] PATTERN FILE...
 
-  * Windows
+  * (('tag:small'))Windows
 
       > findstr [/n] PATTERN FILE...
 
 = ファイル内検索\n(('note:サブディレクトリを含む'))
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ find DIR... | xargs grep PATTERN
 
-  * Windows
+  * (('tag:small'))Windows
 
       > findstr /s PATTERN [DIR/]WILD_CARD
 
 = 行数を数える
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ wc -l FILE...
 
-  * Windows
+  * (('tag:small'))Windows
 
       > find /c /v "" FILE...
 
 = 行数を数える\n(('note:特定の文字を含む行'))
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ grep -c "hoge" FILE...
 
-  * Windows
+  * (('tag:small'))Windows
 
       > find /c "hoge" FILE...
 
 = 行数を数える\n(('note:特定の文字を含む行'))
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ cat FILE... | grep -c "hoge"
 
-  * Windows
+  * (('tag:small'))Windows
 
       > type FILE... | find /c "hoge"
 
 = 差分比較\n(('note:テキスト'))
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ diff [-u] FILE1 FILE2
 
-  * Windows
+  * (('tag:small'))Windows
 
       > fc [/n] FILE1 FILE2
 
 = 差分比較\n(('note:バイナリ'))
 
-  * Unix
+  * (('tag:small'))Unix
 
       $ cmp FILE1 FILE2
 
-  * Windows
+  * (('tag:small'))Windows
 
       > fc /b FILE1 FILE2
 
