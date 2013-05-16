@@ -226,7 +226,7 @@ OSの((*CLI*))
 
   * Windows
 
-      > dir /b /s PATTERN DIR...
+      > dir /b /s PATTERN
 
 = ディレクトリツリー表示
 
