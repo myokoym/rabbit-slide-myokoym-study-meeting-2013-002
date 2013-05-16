@@ -238,11 +238,11 @@ OSの((*CLI*))
 
   * Unix
 
-      $ grep PATTERN FILE...
+      $ grep [-n] PATTERN FILE...
 
   * Windows
 
-      > findstr PATTERN FILE...
+      > findstr [/n] PATTERN FILE...
 
 = ファイル内検索\n(('note:サブディレクトリを含む'))
 
