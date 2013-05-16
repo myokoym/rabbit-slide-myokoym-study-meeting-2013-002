@@ -225,7 +225,7 @@ OSの((*CLI*))
 
   * (('tag:small'))Unix
 
-      $ find DIR... -name WILD_CARD
+      $ find DIR... -name "WILD_CARD"
 
   * (('tag:small'))Windows
 
@@ -241,21 +241,21 @@ OSの((*CLI*))
 
   * (('tag:small'))Unix
 
-      $ grep [-n] PATTERN FILE...
+      $ grep [-n] "PATTERN" FILE...
 
   * (('tag:small'))Windows
 
-      > findstr [/n] PATTERN FILE...
+      > findstr [/n] "PATTERN" FILE...
 
 = ファイル内検索\n(('note:サブディレクトリを含む'))
 
   * (('tag:small'))Unix
 
-      $ find DIR... | xargs grep PATTERN
+      $ find DIR... | xargs grep "PATTERN"
 
   * (('tag:small'))Windows
 
-      > findstr /s PATTERN [DIR/]WILD_CARD
+      > findstr /s "PATTERN" [DIR/]WILD_CARD
 
 = 行数を数える
 
