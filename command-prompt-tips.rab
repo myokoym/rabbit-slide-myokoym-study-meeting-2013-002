@@ -252,7 +252,7 @@ OSの((*CLI*))
 
   * Windows
 
-      > findstr /s [/C:]PATTERN DIR...
+      > findstr /s [/C:]PATTERN [DIR/]WILD_CARD
 
 = 行数を数える
 
