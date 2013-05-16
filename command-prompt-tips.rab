@@ -242,7 +242,7 @@ OSの((*CLI*))
 
   * Windows
 
-      > findstr [C:]PATTERN FILE...
+      > findstr [/C:]PATTERN FILE...
 
 = ファイル内検索\n(('note:サブディレクトリを含む'))
 
