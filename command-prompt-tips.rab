@@ -222,11 +222,11 @@ OSの((*CLI*))
 
   * Unix
 
-      $ find DIR... -name PATTERN
+      $ find DIR... -name WILD_CARD
 
   * Windows
 
-      > dir /b /s PATTERN
+      > dir /b /s WILD_CARD
 
 = ディレクトリツリー表示
 
